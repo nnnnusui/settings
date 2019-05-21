@@ -1,0 +1,24 @@
+"no menu bar, tool bar and scroll bar
+set guioptions-=T
+set guioptions-=m
+set guioptions-=r
+set guioptions-=R
+set guioptions-=l
+set guioptions-=L
+set guioptions-=b
+"no tab page
+set showtabline=0
+"no mouse
+set mouse=c
+"maximize when enter gvim
+"au GUIEnter * simalt ~x
+
+"colorscheme hybrid
+"set transparency
+"autocmd GUIEnter * set transparency=220
+"set cursor
+highlight CursorLine gui=underline guifg=NONE guibg=NONE
+
+colorscheme koehler
+"set background=dark
+"call libcallnr("vimtweak64.dll", "SetAlpha", 100)
