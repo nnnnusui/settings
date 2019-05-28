@@ -87,7 +87,7 @@ if !has('gui_running')
 end
 
 
-inoremap ( (<C-[>:call InsBraces()<CR>i
+"inoremap ( (<C-[>:call InsBraces()<CR>i
 inoremap { {}<left>
 
 "move
