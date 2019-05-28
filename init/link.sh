@@ -1,6 +1,11 @@
 #!/bin/bash
 this_dir=$(cd $(dirname $0); pwd)
+dotfile_dir=${this_dir}/../~dotfiles
+
+date=$(date "+%Y%m%d-%H%M%S")
+mv ~/.vimrc  ~/.vimrc${date}.old
+mv ~/.gvimrc ~/.gvimrc${date}.old
 
 # ln -s $(pwd)/script/ ~/sh
-ln -s $(this_dir)/_vimrc ~/.vimrc
-ln -s $(this_dir)/_gvimrc ~/.gvimrc
+ln -s ${dotfile_dir}/_vimrc ~/.vimrc
+ln -s ${dotfile_dir}/_gvimrc ~/.gvimrc
