@@ -27,7 +27,20 @@ Windows用の .bat や、フォルダ整理テンプレート 等
 #### ~windows/whenInstalling/*
 環境構築スクリプト。
 
-個人的には主に、OSインストール時に [shift]+([F3]? [F10]?) などしてAdministratorでログインしてから使う。
+個人的には主に、OSインストール時に [ctrl]+[shift]+[F3] などしてAdministratorでログインしてから使う。
+
+##### createSystemDrive.bat
+指定のドライブをクリーンアップしてシステムパーティションを作成する。
+
+パーティション作成画面で [shift]+[F10] で`cmd`を起動した後、これを起動する。
+
+##### relocateProfilesDirectory_toU.bat & relocate_toU.xml
+/Users/ を `U:\Users` に移動する。
+
+Windowsインストール後のアカウント作成時に [ctrl]+[shift]+[F3] を押下すると Administrator でログインできる。
+この状態でスクリプトを実行することで、Usersフォルダを移動する。
+
+実行前に、 [Uドライブを割り当てる/Uドライブ以外(存在するドライブ)への移動に書き換える]必要がある
 
 
 など。以上
