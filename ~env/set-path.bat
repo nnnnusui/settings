@@ -1,0 +1,47 @@
+@echo off
+REM cd /d %~dp0
+set BASE_DIR=%~dp0
+
+set CMAKE_HOME=%BASE_DIR%cmake\3.17.0-rc3-win64-x64
+set GLSL_HOME=%BASE_DIR%glsl
+set GNU_HOME=%BASE_DIR%GnuWin32
+set GO_HOME=%BASE_DIR%go
+set JAVA_HOME=%BASE_DIR%java\openjdk-13_33
+set KOTLIN_HOME=%BASE_DIR%kotlinc
+set KUIN_HOME=%BASE_DIR%kuin
+set LLVM_HOME=%BASE_DIR%LLVM
+set MINGW_HOME=%BASE_DIR%mingw-w64\x86_64-8.1.0-win32-sjlj-rt_v6-rev0\mingw64
+set PYTHON_HOME=%BASE_DIR%Python\27_17
+set SBT_HOME=%BASE_DIR%sbt
+set ZEN_HOME=%BASE_DIR%Zen\zen-windows-x86_64-0.8.20191124
+
+set PATH=%PATH%;%CMAKE_HOME%\bin
+set PATH=%PATH%;%GLSL_HOME%
+set PATH=%PATH%;%GNU_HOME%\bin
+set PATH=%PATH%;%GO_HOME%\bin
+set PATH=%PATH%;%JAVA_HOME%\bin
+set PATH=%PATH%;%KOTLIN_HOME%\bin
+set PATH=%PATH%;%KUIN_HOME%
+set PATH=%PATH%;%LLVM_HOME%\bin
+set PATH=%PATH%;%MINGW_HOME%\bin
+set PATH=%PATH%;%PYTHON_HOME%
+set PATH=%PATH%;%SBT_HOME%\bin
+set PATH=%PATH%;%ZEN_HOME%
+
+
+
+set ANSICON_HOME=%BASE_DIR%ansicon
+set CURL_HOME=%BASE_DIR%curl
+set GIT_HOME=%BASE_DIR%PortableGit
+set GRADLE_HOME=%BASE_DIR%gradle\6.1
+set QEMU_HOME=%BASE_DIR%qemu
+set TOMCAT_HOME=%BASE_DIR%apache-tomcat-9.0.30
+set TRACK_HOME=%BASE_DIR%track
+
+set PATH=%PATH%;%ANSICON_HOME%\x64
+set PATH=%PATH%;%CURL_HOME%\AMD64
+set PATH=%PATH%;%GIT_HOME%\bin
+set PATH=%PATH%;%GRADLE_HOME%\bin
+set PATH=%PATH%;%QEMU_HOME%
+set PATH=%PATH%;%TOMCAT_HOME%\bin
+set PATH=%PATH%;%TRACK_HOME%

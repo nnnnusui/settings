@@ -1,0 +1,4 @@
+#!/bin/sh
+
+launch="$tool/Google/Chrome/Application/chrome.exe --disable-web-security"
+$launch

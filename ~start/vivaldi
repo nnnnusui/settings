@@ -1,0 +1,2 @@
+#!/bin/sh
+start $tool/Vivaldi/Application/vivaldi.exe

@@ -1,0 +1,2 @@
+#!/bin/sh
+start $tool/7-Zip/7zFM.exe

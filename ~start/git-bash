@@ -1,0 +1,2 @@
+#!/bin/sh
+start $git_home/git-bash

@@ -1,0 +1,2 @@
+#!/bin/sh
+start $tool/MuseScore3/bin/MuseScore3.exe
