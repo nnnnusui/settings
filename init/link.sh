@@ -1,6 +1,6 @@
 #!/bin/bash
 this_dir=$(cd $(dirname $0); pwd)
-dotfile_dir=${this_dir}/../~dotfiles
+dotfile_dir=${this_dir}/../~config/dotfiles
 
 date=$(date "+%Y%m%d-%H%M%S")
 mv ~/.vimrc  ~/.vimrc${date}.old
